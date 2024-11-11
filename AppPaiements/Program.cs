@@ -13,5 +13,11 @@ internal class Program
         cart2.AfficherDetails();
         cart3.AfficherDetails();
 
+        Paypal pay1 = new Paypal("roger@example.com", 89.2, "Ecran");
+        Paypal pay2 = new Paypal("laurie@example.com", 59.36, "Kit maquillage");
+
+        pay1.AfficherDetails();
+        pay2.AfficherDetails();
+                    
     }
 }
