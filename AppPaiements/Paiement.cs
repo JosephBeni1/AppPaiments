@@ -11,7 +11,7 @@ namespace AppPaiements
         public double Montant { get; set; }
         public string Description { get; set; }
 
-        public Paiement(double montant, string description,)
+        public Paiement(double montant, string description)
         {
             Montant = montant;
             Description = description;
