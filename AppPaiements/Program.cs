@@ -18,6 +18,15 @@ internal class Program
 
         pay1.AfficherDetails();
         pay2.AfficherDetails();
-                    
+
+        Utilisateur user1 = new Utilisateur("Beni");
+
+        user1.AjouterPaiement(cart1);
+        user1.AjouterPaiement(cart2);
+        user1.AjouterPaiement(cart3);
+        user1.AjouterPaiement(pay1);
+        user1.AjouterPaiement(pay2);
+
+        user1.AfficherInfos();
     }
 }
